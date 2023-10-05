@@ -1,0 +1,13 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+imbalanced-learn
+feature-engine
+webbrowser
+
+docker compose -f airflow_ES.yaml up
+docker compose -f airflow_lite.yaml up
+docker compose -f airflow.yaml up
+
